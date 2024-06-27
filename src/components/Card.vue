@@ -24,6 +24,7 @@
           <h1 class="text-xs font-normal">CC2: {{ cca2 }}</h1>
           <h1 class="text-xs font-normal text-black">CCA3: {{ cca3 }}</h1>
         </div>
+      
       </div>
       <h1 class="text-sm font-normal pl-3">Offical name :</h1>
       <div class="h-10 overflow-hidden">
@@ -41,6 +42,16 @@
           </h1>
         </div>
       </div>
+          <h1 class="text-sm font-normal text-black pl-3">IDD Root: {{ idd.root }}</h1>
+          <h1 class="text-sm font-normal text-black pl-3">IDD Suffixes : </h1>
+         <div class = "h-10 overflow-hidden">
+          <div v-for="(value, code) in idd.suffixes" :key="code" class="pl-5">
+          <h1 class="text-sm font-normal">
+            - {{ value }}
+          </h1>
+        </div>
+         </div>
+
       <h1 class="text-sm font-normal pl-3">AltSpellings :</h1>
       <div class="h-10 overflow-hidden">
         <div v-for="(value, index) in altSpellings" :key="index" class="pl-5">

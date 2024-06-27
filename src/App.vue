@@ -92,7 +92,7 @@
                   </DisclosurePanel>
                 </Disclosure>
                 <input
-                  placeholder = "Search by country name"
+                  placeholder="Search by country name"
                   type="text"
                   class="w-64 h-8 pl-2 ml-7 border-2 border-gray-500 rounded-md"
                   v-model="searchTerm"
@@ -193,7 +193,7 @@
             </Popover>
           </PopoverGroup>
           <input
-            placeholder = "Search by country name"
+            placeholder="Search by country name"
             type="text"
             class="hidden md:flex w-64 h-8 pl-2 border-2 border-gray-500 rounded-md"
             v-model="searchTerm"
