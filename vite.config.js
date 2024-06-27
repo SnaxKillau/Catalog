@@ -5,6 +5,7 @@ import vue from '@vitejs/plugin-vue';
 import path from 'path'; // Import path module
 import postcssConfig from './postcss.config.js';
 export default defineConfig({
+  base: "Catalog",
   plugins: [vue()],
   resolve: {
     alias: {
